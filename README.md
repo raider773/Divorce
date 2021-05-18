@@ -34,10 +34,35 @@ Knn scores and best parameters of the GridSearch
 I compared the models and end up using the LDA.
 I used Lime library to analyse how much features weight in a prediction.
 
-I ended up with questions 
+I ended up with questions 18, 48, 15 and 54 affecting most of the predictions:
+
+15. Our dreams with my spouse are similar and harmonious.
+18. My spouse and I have similar ideas about how marriage should be
+48. I feel right in our discussions.
+54. I'm not afraid to tell my spouse about her/his incompetence.
+
+![image](https://user-images.githubusercontent.com/70241561/118704712-cda1d780-b7ed-11eb-958b-00a0c3f1cd0f.png)
+
+LDA Confusion Matrix. This is the model i choose
 
 
+![image](https://user-images.githubusercontent.com/70241561/118704791-df837a80-b7ed-11eb-93b0-14cd00bbf719.png)
 
+ROC and AUC of the three models 
+
+![image](https://user-images.githubusercontent.com/70241561/118704861-f033f080-b7ed-11eb-9005-243dc03f7045.png)
+
+Importance of features in a specific prediction. 18, 48, 15 and 54 appearing in a lot of random selected samples fro prediction
+
+-----------------------------
+
+Finally i used Flask for deployment and created a simple function to evaluate teh statements and recieve the model prediction.
+
+
+![image](https://user-images.githubusercontent.com/70241561/118705103-32f5c880-b7ee-11eb-934d-34cfe1b12f5e.png)
+
+
+![image](https://user-images.githubusercontent.com/70241561/118705122-3a1cd680-b7ee-11eb-818d-813208c29ef6.png)
 
 
 
