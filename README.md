@@ -12,10 +12,10 @@ Finally i deploy the model in flask, and created a function where you answer the
 
 ![image](https://user-images.githubusercontent.com/70241561/118702956-ee692d80-b7eb-11eb-9e73-bf86fe3d286c.png)
 
-
 I used PCA to reduce the dimensionality of the dataset to plot both classes.\
 From this i assume the binary classification can be done with a plane, so im gonna use models that classify based on this. \
 We can also see the classes are quite separated from each other.
+
 --------------------------
 
 I trained three models. A logistic regression and an LDA, models that separate classes linearly, and a KNN. Since in the PCA graph the classes appeared clearly separated i
