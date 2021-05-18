@@ -24,9 +24,11 @@ I trained three models. A logistic regression and an LDA, models that separate c
 could assume the features in a hyperplane look somewhat similar. The KNN would perform quite ok. 
 
 ![image](https://user-images.githubusercontent.com/70241561/118703782-dba32880-b7ec-11eb-8ac5-00f639677f59.png)
+
 Logistic Regression with 0.5 as threshold
 
 ![image](https://user-images.githubusercontent.com/70241561/118703910-f7a6ca00-b7ec-11eb-81b7-bea777c957c4.png)
+
 Knn scores and best parameters of the GridSearch
 
 -------------------------
@@ -42,13 +44,16 @@ I ended up with questions 18, 48, 15 and 54 affecting most of the predictions:
 54. I'm not afraid to tell my spouse about her/his incompetence.
 
 ![image](https://user-images.githubusercontent.com/70241561/118704712-cda1d780-b7ed-11eb-958b-00a0c3f1cd0f.png)
+
 LDA Confusion Matrix. This is the model i choose
 
 
 ![image](https://user-images.githubusercontent.com/70241561/118704791-df837a80-b7ed-11eb-93b0-14cd00bbf719.png)
+
 ROC and AUC of the three models 
 
 ![image](https://user-images.githubusercontent.com/70241561/118704861-f033f080-b7ed-11eb-9005-243dc03f7045.png)
+
 Importance of features in a specific prediction. 18, 48, 15 and 54 appearing in a lot of random selected samples from prediction
 
 -----------------------------
